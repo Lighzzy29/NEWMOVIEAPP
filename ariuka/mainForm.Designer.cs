@@ -32,6 +32,8 @@
             movieListToolStripMenuItem = new ToolStripMenuItem();
             commentToolStripMenuItem = new ToolStripMenuItem();
             favouriteToolStripMenuItem = new ToolStripMenuItem();
+            watchlistToolStripMenuItem = new ToolStripMenuItem();
+            favouriteActorToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -43,6 +45,7 @@
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // movieListToolStripMenuItem
             // 
@@ -59,9 +62,25 @@
             // 
             // favouriteToolStripMenuItem
             // 
+            favouriteToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { watchlistToolStripMenuItem, favouriteActorToolStripMenuItem });
             favouriteToolStripMenuItem.Name = "favouriteToolStripMenuItem";
             favouriteToolStripMenuItem.Size = new Size(104, 20);
             favouriteToolStripMenuItem.Text = "Favourite Movie";
+            favouriteToolStripMenuItem.Click += favouriteToolStripMenuItem_Click;
+            // 
+            // watchlistToolStripMenuItem
+            // 
+            watchlistToolStripMenuItem.Name = "watchlistToolStripMenuItem";
+            watchlistToolStripMenuItem.Size = new Size(180, 22);
+            watchlistToolStripMenuItem.Text = "Watchlist";
+            watchlistToolStripMenuItem.Click += watchlistToolStripMenuItem_Click;
+            // 
+            // favouriteActorToolStripMenuItem
+            // 
+            favouriteActorToolStripMenuItem.Name = "favouriteActorToolStripMenuItem";
+            favouriteActorToolStripMenuItem.Size = new Size(180, 22);
+            favouriteActorToolStripMenuItem.Text = "Favourite Actor";
+            favouriteActorToolStripMenuItem.Click += favouriteActorToolStripMenuItem_Click;
             // 
             // mainForm
             // 
@@ -86,5 +105,7 @@
         private ToolStripMenuItem movieListToolStripMenuItem;
         private ToolStripMenuItem commentToolStripMenuItem;
         private ToolStripMenuItem favouriteToolStripMenuItem;
+        private ToolStripMenuItem watchlistToolStripMenuItem;
+        private ToolStripMenuItem favouriteActorToolStripMenuItem;
     }
 }

@@ -28,5 +28,31 @@ namespace ariuka
         {
 
         }
+
+        private void favouriteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FavouriteMovieForm mf = new FavouriteMovieForm();
+            mf.MdiParent = this;
+            mf.Show();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void watchlistToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WatchlistForm mf = new WatchlistForm();
+            mf.MdiParent = this;
+            mf.Show();
+        }
+
+        private void favouriteActorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FavouriteActorForm mf = new FavouriteActorForm();
+            mf.MdiParent = this;
+            mf.Show();
+        }
     }
 }
