@@ -31,12 +31,13 @@
             menuStrip1 = new MenuStrip();
             movieListToolStripMenuItem = new ToolStripMenuItem();
             commentToolStripMenuItem = new ToolStripMenuItem();
+            favouriteToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { movieListToolStripMenuItem, commentToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { movieListToolStripMenuItem, commentToolStripMenuItem, favouriteToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
@@ -55,6 +56,12 @@
             commentToolStripMenuItem.Name = "commentToolStripMenuItem";
             commentToolStripMenuItem.Size = new Size(73, 20);
             commentToolStripMenuItem.Text = "Comment";
+            // 
+            // favouriteToolStripMenuItem
+            // 
+            favouriteToolStripMenuItem.Name = "favouriteToolStripMenuItem";
+            favouriteToolStripMenuItem.Size = new Size(104, 20);
+            favouriteToolStripMenuItem.Text = "Favourite Movie";
             // 
             // mainForm
             // 
@@ -78,5 +85,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem movieListToolStripMenuItem;
         private ToolStripMenuItem commentToolStripMenuItem;
+        private ToolStripMenuItem favouriteToolStripMenuItem;
     }
 }

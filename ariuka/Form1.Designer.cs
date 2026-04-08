@@ -55,21 +55,22 @@
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(175, 24);
+            txtUserName.Location = new Point(123, 24);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(187, 23);
             txtUserName.TabIndex = 2;
+            txtUserName.TextChanged += txtUserName_TextChanged;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(175, 75);
+            txtPassword.Location = new Point(123, 75);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(187, 23);
             txtPassword.TabIndex = 3;
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(287, 135);
+            btnLogin.Location = new Point(235, 126);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(75, 23);
             btnLogin.TabIndex = 4;
@@ -81,7 +82,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1496, 450);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(522, 339);
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUserName);

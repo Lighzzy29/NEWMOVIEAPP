@@ -64,3 +64,5 @@ C:\Users\Lab14\Documents\visualllllllll\ariuka\ariuka\obj\Debug\net8.0-windows\r
 C:\Users\Lab14\Documents\visualllllllll\ariuka\ariuka\obj\Debug\net8.0-windows\ariuka.pdb
 C:\Users\Lab14\Documents\visualllllllll\ariuka\ariuka\obj\Debug\net8.0-windows\ariuka.genruntimeconfig.cache
 C:\Users\Lab14\Documents\visualllllllll\ariuka\ariuka\obj\Debug\net8.0-windows\ref\ariuka.dll
+C:\Users\Lab14\Documents\visualllllllll\ariuka\ariuka\obj\Debug\net8.0-windows\ariuka.sourcelink.json
+C:\Users\Lab14\Documents\visualllllllll\ariuka\ariuka\obj\Debug\net8.0-windows\ariuka.Properties.Resources.resources

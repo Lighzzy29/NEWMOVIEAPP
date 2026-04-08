@@ -24,7 +24,7 @@ namespace ariuka
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-MySqlConnection conn = GetConnection();
+            MySqlConnection conn = GetConnection();
         }
 
         private void btnLogin_Click_1(object sender, EventArgs e)
@@ -34,38 +34,43 @@ MySqlConnection conn = GetConnection();
                 MessageBox.Show("Username or password is wrong");
                 return;
             }
-                    try
+            try
+            {
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+                    string sql = "SELECT * FROM reviewer WHERE rName = @name AND rPass = @pass";
+                    using (MySqlCommand cmd = new MySqlCommand(sql, conn))
                     {
-                        using (var conn = GetConnection())
-                        {
-                            conn.Open();
-                            string sql = "SELECT * FROM reviewer WHERE rName = @name AND rPass = @pass";
-                            using (MySqlCommand cmd = new MySqlCommand(sql, conn))
-                            {
-                                cmd.Parameters.AddWithValue("@name", txtUserName.Text);
-                                cmd.Parameters.AddWithValue("@pass", txtPassword.Text);
+                        cmd.Parameters.AddWithValue("@name", txtUserName.Text);
+                        cmd.Parameters.AddWithValue("@pass", txtPassword.Text);
 
-                                using (MySqlDataReader reader = cmd.ExecuteReader())
-                                {
-                                    if (reader.HasRows)
-                                    {
-                                        MessageBox.Show("Login succeed");
-                                        new mainForm().Show();
-                                         this.Hide();
-                                    }
-                                    else
-                                    {
-                                        MessageBox.Show("Username or password is wrong");
-                                    }
-                                }
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                MessageBox.Show("Login succeed");
+                                new mainForm().Show();
+                                this.Hide();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Username or password is wrong");
                             }
                         }
                     }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Error: " + ex.Message);
-                    }
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
     
