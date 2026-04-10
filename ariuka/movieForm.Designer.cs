@@ -41,8 +41,13 @@
             btnDelete = new Button();
             btnAdd = new Button();
             picMovie = new PictureBox();
+            webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
+            button1 = new Button();
+            txtUrll = new TextBox();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvMovie).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picMovie).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
             // 
             // dgvMovie
@@ -51,7 +56,7 @@
             dgvMovie.Location = new Point(12, 12);
             dgvMovie.Name = "dgvMovie";
             dgvMovie.ReadOnly = true;
-            dgvMovie.Size = new Size(776, 150);
+            dgvMovie.Size = new Size(1003, 150);
             dgvMovie.TabIndex = 0;
             dgvMovie.CellClick += dgvMovie_CellContentClick;
             dgvMovie.CellContentClick += dgvMovie_CellContentClick;
@@ -119,6 +124,7 @@
             txtDirector.Name = "txtDirector";
             txtDirector.Size = new Size(138, 23);
             txtDirector.TabIndex = 8;
+            txtDirector.TextChanged += txtDirector_TextChanged;
             // 
             // btnUptade
             // 
@@ -142,7 +148,7 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(608, 249);
+            btnAdd.Location = new Point(766, 194);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(71, 50);
             btnAdd.TabIndex = 11;
@@ -154,15 +160,57 @@
             // 
             picMovie.Location = new Point(12, 273);
             picMovie.Name = "picMovie";
-            picMovie.Size = new Size(282, 246);
+            picMovie.Size = new Size(282, 350);
             picMovie.TabIndex = 12;
             picMovie.TabStop = false;
+            // 
+            // webView21
+            // 
+            webView21.AllowExternalDrop = true;
+            webView21.CreationProperties = null;
+            webView21.DefaultBackgroundColor = Color.White;
+            webView21.Location = new Point(324, 273);
+            webView21.Name = "webView21";
+            webView21.Size = new Size(513, 350);
+            webView21.TabIndex = 13;
+            webView21.ZoomFactor = 1D;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(843, 581);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 42);
+            button1.TabIndex = 14;
+            button1.Text = "Play";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // txtUrll
+            // 
+            txtUrll.Location = new Point(56, 244);
+            txtUrll.Name = "txtUrll";
+            txtUrll.Size = new Size(100, 23);
+            txtUrll.TabIndex = 15;
+            txtUrll.Visible = false;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(12, 244);
+            label5.Name = "label5";
+            label5.Size = new Size(24, 15);
+            label5.TabIndex = 16;
+            label5.Text = "urll";
+            label5.Visible = false;
             // 
             // movieForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 555);
+            ClientSize = new Size(1043, 635);
+            Controls.Add(label5);
+            Controls.Add(txtUrll);
+            Controls.Add(button1);
+            Controls.Add(webView21);
             Controls.Add(picMovie);
             Controls.Add(btnAdd);
             Controls.Add(btnDelete);
@@ -181,6 +229,7 @@
             Load += movieForm_Load;
             ((System.ComponentModel.ISupportInitialize)dgvMovie).EndInit();
             ((System.ComponentModel.ISupportInitialize)picMovie).EndInit();
+            ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -201,5 +250,9 @@
         private Button btnAdd;
         private PictureBox pictureBox1;
         private PictureBox picMovie;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
+        private Button button1;
+        private TextBox txtUrll;
+        private Label label5;
     }
 }

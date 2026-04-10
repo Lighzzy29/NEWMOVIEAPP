@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\favouritemovieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\favouritemovieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\favouritemovieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\favouritemovieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\favouritemovieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\favouritemovieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\watchlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\watchlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\favouriteactorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\favouriteactorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|c:\\users\\lab14\\source\\repos\\newmovieapp\\ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D9B2722C-312A-4ECF-B0AA-03F7689A17BF}|ariuka\\ariuka.csproj|solutionrelative:ariuka\\movieform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WatchlistForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\WatchlistForm.cs",
               "RelativeDocumentMoniker": "ariuka\\WatchlistForm.cs",
@@ -69,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FavouriteMovieForm.cs",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\FavouriteMovieForm.cs",
               "RelativeDocumentMoniker": "ariuka\\FavouriteMovieForm.cs",
@@ -82,42 +82,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FavouriteMovieForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\FavouriteMovieForm.cs",
               "RelativeDocumentMoniker": "ariuka\\FavouriteMovieForm.cs",
               "ToolTip": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\FavouriteMovieForm.cs [Design]",
               "RelativeToolTip": "ariuka\\FavouriteMovieForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T02:17:14.963Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-08T02:17:14.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "movieForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\movieForm.cs",
               "RelativeDocumentMoniker": "ariuka\\movieForm.cs",
               "ToolTip": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\movieForm.cs [Design]",
               "RelativeToolTip": "ariuka\\movieForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T02:06:38.386Z"
+              "WhenOpened": "2026-02-11T02:06:38.386Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "movieForm.cs",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\movieForm.cs",
               "RelativeDocumentMoniker": "ariuka\\movieForm.cs",
               "ToolTip": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\movieForm.cs",
               "RelativeToolTip": "ariuka\\movieForm.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwGgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAArwDoAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T02:18:55.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "mainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\mainForm.cs",
               "RelativeDocumentMoniker": "ariuka\\mainForm.cs",
@@ -128,19 +128,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "mainForm.cs",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\mainForm.cs",
               "RelativeDocumentMoniker": "ariuka\\mainForm.cs",
               "ToolTip": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\mainForm.cs",
               "RelativeToolTip": "ariuka\\mainForm.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAwDYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwBQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T02:16:16.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\Form1.cs",
               "RelativeDocumentMoniker": "ariuka\\Form1.cs",
@@ -153,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FavouriteActorForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\FavouriteActorForm.cs",
               "RelativeDocumentMoniker": "ariuka\\FavouriteActorForm.cs",
@@ -164,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lab14\\source\\repos\\NEWMOVIEAPP\\ariuka\\Form1.cs",
               "RelativeDocumentMoniker": "ariuka\\Form1.cs",

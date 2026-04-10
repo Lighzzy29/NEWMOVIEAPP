@@ -39,6 +39,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = SystemColors.ActiveCaption;
             menuStrip1.Items.AddRange(new ToolStripItem[] { movieListToolStripMenuItem, commentToolStripMenuItem, favouriteToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
@@ -71,14 +72,14 @@
             // watchlistToolStripMenuItem
             // 
             watchlistToolStripMenuItem.Name = "watchlistToolStripMenuItem";
-            watchlistToolStripMenuItem.Size = new Size(180, 22);
+            watchlistToolStripMenuItem.Size = new Size(155, 22);
             watchlistToolStripMenuItem.Text = "Watchlist";
             watchlistToolStripMenuItem.Click += watchlistToolStripMenuItem_Click;
             // 
             // favouriteActorToolStripMenuItem
             // 
             favouriteActorToolStripMenuItem.Name = "favouriteActorToolStripMenuItem";
-            favouriteActorToolStripMenuItem.Size = new Size(180, 22);
+            favouriteActorToolStripMenuItem.Size = new Size(155, 22);
             favouriteActorToolStripMenuItem.Text = "Favourite Actor";
             favouriteActorToolStripMenuItem.Click += favouriteActorToolStripMenuItem_Click;
             // 
@@ -86,6 +87,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;

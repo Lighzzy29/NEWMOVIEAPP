@@ -37,6 +37,7 @@ namespace ariuka
                     dgvMovie.Columns["title"].HeaderText = "Movie Name";
                     dgvMovie.Columns["year1"].HeaderText = "Year";
                     dgvMovie.Columns["Director"].HeaderText = "Director";
+                    dgvMovie.Columns["urll"].Visible = false;
                 }
             }
             catch (Exception ex)
@@ -55,6 +56,7 @@ namespace ariuka
                 txtTitle.Text = row.Cells["title"].Value?.ToString();
                 txtYear.Text = row.Cells["year1"].Value?.ToString();
                 txtDirector.Text = row.Cells["director"].Value?.ToString();
+                txtUrll.Text = row.Cells["urll"].Value?.ToString();
 
                 string FileName = $@"{AppDomain.CurrentDomain.BaseDirectory}images\{txtID.Text}.jpg";
                 string imgFileName = $@"{AppDomain.CurrentDomain.BaseDirectory}images\Nothing.jpg";
@@ -143,12 +145,13 @@ namespace ariuka
                 using (var conn = GetConnection())
                 {
                     conn.Open();
-                    string sql = "INSERT INTO movie (movieID, title, year1, director) VALUES (@movieID, @title, @year1, @director);";
+                    string sql = "INSERT INTO movie (movieID, title, year1, director, urll) VALUES (@movieID, @title, @year1, @director, @urll);";
                     MySqlCommand cmd = new MySqlCommand(sql, conn);
                     cmd.Parameters.AddWithValue("@title", txtTitle.Text);
                     cmd.Parameters.AddWithValue("@year1", txtYear.Text);
                     cmd.Parameters.AddWithValue("@director", txtDirector.Text);
                     cmd.Parameters.AddWithValue("@movieID", txtID.Text);
+                    cmd.Parameters.AddWithValue("@urll", txtUrll.Text);
                     cmd.ExecuteNonQuery();
                 }
                 LoadData();
@@ -157,6 +160,11 @@ namespace ariuka
             {
                 MessageBox.Show("Error:" + ex.Message);
             }
+        }
+
+        private void txtDirector_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

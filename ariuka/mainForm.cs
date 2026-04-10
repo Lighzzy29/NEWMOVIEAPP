@@ -18,6 +18,7 @@ namespace ariuka
         }
 
         private void movieListToolStripMenuItem_Click(object sender, EventArgs e)
+     
         {
             movieForm mf = new movieForm();
             mf.MdiParent = this;
