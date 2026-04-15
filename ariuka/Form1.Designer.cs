@@ -68,9 +68,9 @@
             txtPassword.Location = new Point(123, 72);
             txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(187, 26);
             txtPassword.TabIndex = 3;
-            txtPassword.UseSystemPasswordChar = true;
             // 
             // btnLogin
             // 
