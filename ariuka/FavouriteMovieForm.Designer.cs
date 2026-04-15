@@ -36,7 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Name = "FavouriteMovieForm";
-            Text = "`";
+            Text = "Favourite Movie";
             ResumeLayout(false);
         }
 

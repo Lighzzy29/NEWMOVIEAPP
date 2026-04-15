@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Data;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+
+
 
 namespace ariuka
 {
@@ -11,6 +15,7 @@ namespace ariuka
         public movieForm()
         {
             InitializeComponent();
+         
         }
         MySqlConnection GetConnection()
         {
@@ -65,6 +70,7 @@ namespace ariuka
                     imgFileName = FileName;
                 }
                 picMovie.Image = Image.FromFile(imgFileName);
+                
             }
         }
 
@@ -80,7 +86,7 @@ namespace ariuka
                 using (var conn = GetConnection())
                 {
                     conn.Open();
-                    string sql = "UPDATE movie SET title=@title, year1=@year1, director=@director WHERE movieID=@movieID;";
+                    string sql = "UPDATE movie SET movieID=@movieID, atitle=@title, year1=@year1, director=@director WHERE movieID=@movieID;";
                     MySqlCommand cmd = new MySqlCommand(sql, conn);
                     cmd.Parameters.AddWithValue("@title", txtTitle.Text);
                     cmd.Parameters.AddWithValue("@year1", Convert.ToInt32(txtYear.Text));
@@ -165,6 +171,17 @@ namespace ariuka
         private void txtDirector_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            webView21.Source = new Uri(txtUrll.Text);
+        }
+
+        
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           
         }
     }
 }

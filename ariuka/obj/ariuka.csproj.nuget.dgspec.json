@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP\\ariuka\\ariuka.csproj": {}
+    "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP2\\ariuka\\ariuka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP\\ariuka\\ariuka.csproj": {
+    "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP2\\ariuka\\ariuka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP\\ariuka\\ariuka.csproj",
+        "projectUniqueName": "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP2\\ariuka\\ariuka.csproj",
         "projectName": "ariuka",
-        "projectPath": "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP\\ariuka\\ariuka.csproj",
+        "projectPath": "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP2\\ariuka\\ariuka.csproj",
         "packagesPath": "C:\\Users\\Lab14\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP\\ariuka\\obj\\",
+        "outputPath": "C:\\Users\\Lab14\\Source\\Repos\\NEWMOVIEAPP2\\ariuka\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -36,7 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1052, 727);
             Name = "WatchlistForm";
-            Text = " ";
+            Text = " Watclist Form";
             ResumeLayout(false);
         }
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             dgvMovie = new DataGridView();
             label1 = new Label();
             label2 = new Label();
@@ -45,6 +46,7 @@
             button1 = new Button();
             txtUrll = new TextBox();
             label5 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)dgvMovie).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picMovie).BeginInit();
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
@@ -183,6 +185,7 @@
             button1.TabIndex = 14;
             button1.Text = "Play";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // txtUrll
             // 
@@ -201,6 +204,12 @@
             label5.TabIndex = 16;
             label5.Text = "urll";
             label5.Visible = false;
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 10;
+            timer1.Tick += timer1_Tick;
             // 
             // movieForm
             // 
@@ -254,5 +263,6 @@
         private Button button1;
         private TextBox txtUrll;
         private Label label5;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -33,6 +33,7 @@
             txtUserName = new TextBox();
             txtPassword = new TextBox();
             btnLogin = new Button();
+            btnShowHide = new Button();
             SuspendLayout();
             // 
             // label1
@@ -56,17 +57,20 @@
             // txtUserName
             // 
             txtUserName.Location = new Point(123, 24);
+            txtUserName.Multiline = true;
             txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(187, 23);
+            txtUserName.Size = new Size(187, 26);
             txtUserName.TabIndex = 2;
             txtUserName.TextChanged += txtUserName_TextChanged;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(123, 75);
+            txtPassword.Location = new Point(123, 72);
+            txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(187, 23);
+            txtPassword.Size = new Size(187, 26);
             txtPassword.TabIndex = 3;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // btnLogin
             // 
@@ -78,12 +82,22 @@
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click_1;
             // 
+            // btnShowHide
+            // 
+            btnShowHide.Location = new Point(316, 72);
+            btnShowHide.Name = "btnShowHide";
+            btnShowHide.Size = new Size(46, 26);
+            btnShowHide.TabIndex = 5;
+            btnShowHide.UseVisualStyleBackColor = true;
+            btnShowHide.Click += btnShowHide_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(522, 339);
+            Controls.Add(btnShowHide);
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUserName);
@@ -103,5 +117,6 @@
         private TextBox txtUserName;
         private TextBox txtPassword;
         private Button btnLogin;
+        private Button btnShowHide;
     }
 }

@@ -1,4 +1,4 @@
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
 using System.Data;
 using System.Windows.Forms;
@@ -12,6 +12,7 @@ namespace ariuka
         public Form1()
         {
             InitializeComponent();
+            this.AcceptButton = btnLogin;
         }
         MySqlConnection GetConnection()
         {
@@ -71,6 +72,23 @@ namespace ariuka
         {
 
         }
+        bool isPasswordVisible = false;
+        private void btnShowHide_Click(object sender, EventArgs e)
+        {
+            isPasswordVisible = !isPasswordVisible;
+
+            if (isPasswordVisible)
+            {
+                txtPassword.UseSystemPasswordChar = false;
+                btnShowHide.Text = "Hide";
+            }
+            else
+            {
+                txtPassword.UseSystemPasswordChar = true;
+                btnShowHide.Text = "Show";
+            }
+            }
+        }
     }
-}
+
     
